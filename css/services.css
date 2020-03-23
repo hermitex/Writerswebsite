@@ -1,13 +1,10 @@
-/* .padding:first-child {
-  margin-top: 35.5rem !important;
-} */
-
-/* .container div {
-  margin-bottom: 3rem;
-} */
 .wrapper {
   height: 100vh !important;
   overflow-y: scroll;
+}
+
+.card.first {
+  margin-top: 5rem;
 }
 
 .card {
@@ -19,8 +16,4 @@
   justify-content: center;
   text-align: center;
   scroll-snap-type: proximity;
-}
-
-.card.first {
-  margin-top: 5rem;
 }

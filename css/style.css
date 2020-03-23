@@ -25,7 +25,7 @@ body {
   overflow: hidden !important;
   scroll-snap-type: proximity;
 }
-.container {
+.container-1 {
   width: 100%;
   height: 100%;
   margin: auto;

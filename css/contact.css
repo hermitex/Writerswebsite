@@ -1,3 +1,7 @@
-.padding {
-  margin-top: 30rem !important;
+.head {
+  margin-top: 0rem !important; */
+}
+
+body {
+  overflow-y: scroll;
 }
