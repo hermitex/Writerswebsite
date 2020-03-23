@@ -35,6 +35,7 @@ body {
   justify-content: center;
   text-align: center;
   overflow: hidden;
+  overflow-y: scroll;
 }
 /* Lists */
 li {
