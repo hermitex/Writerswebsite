@@ -1,48 +1,33 @@
-.home {
-  overflow-x: hidden;
-  font-size: 3rem;
-}
-
-button {
-  border: none !important;
-  outline: none !important;
-  color: var(--text-main);
-  background-color: var(--text-light);
-  padding: 0.2rem;
-  border-radius: 3rem;
-  font-size: 1.5rem !important;
-  transition: all 0.7s ease;
-  cursor: pointer;
-  font-size: 2rem;
-}
-button:hover {
-  background-color: var(--text-link);
-  color: var(--text-light);
-}
-
-.wrapper {
-  margin-top: 1rem;
-  height: 100vh !important;
-}
-
-.card {
+body {
+  height: 100vh;
   width: 100vw;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  scroll-snap-type: proximity;
-  background-color: var(--background-color);
+  overflow: hidden;
+  overflow-y: scroll;
 }
+
+.background-image {
+  height: 100%;
+  width: 100vw;
+  background-image: url(../image/img-3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--text-light);
+  font-size: 1.5rem;
+}
+
+.more {
+  height: 100%;
+  width: 100vw;
+}
+
 .intro {
   font-size: 1rem !important;
   padding: 0.5rem;
 }
 .greeting {
   color: var(--text-main);
-  font-size: 2rem;
+  font-size: var(--font-mid);
 }
 
 .details {
@@ -50,3 +35,23 @@ button:hover {
   font-size: 1.5rem;
   padding: 0.8rem;
 }
+
+button {
+  border: none !important;
+  outline: none !important;
+  color: var(--text-main);
+  /* background-color: var(--text-main) !important; */
+  padding: 0.2rem;
+  border-radius: 3rem;
+  font-size: 1.5rem !important;
+  transition: all 0.7s ease;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.btn-action {
+  margin-bottom: 1rem;
+}
+/* button:hover {
+  background-color: var(--text-link) !important;
+  color: var(--text-light) !important;
+} */
