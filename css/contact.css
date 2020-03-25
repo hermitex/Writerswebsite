@@ -15,10 +15,36 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
   background-color: transparent;
   font-size: 2rem !important;
   color: var(--text-dark);
+}
+
+.input {
+  height: 1rem;
+  width: fit-content;
+  background: no-repeat;
+  border: none;
+  outline: none;
+  border-bottom: thin var(--text-main) solid;
+}
+
+form {
+  text-align: left;
+  font-size: 1rem;
+}
+
+#image h2 {
+  text-transform: uppercase;
+}
+
+.btn-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
