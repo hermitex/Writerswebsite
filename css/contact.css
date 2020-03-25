@@ -61,5 +61,5 @@ form {
 }
 
 .yellow {
-  color: yellow;
+  color: yellow !important;
 }
